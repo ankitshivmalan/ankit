@@ -1,0 +1,209 @@
+[
+{
+"title":"REST API vs GraphQL: Choosing the Right Architecture",
+"subTitle":"Understanding modern API communication",
+"id":"2323",
+"image":"/assets/img/blogimg/restapivsgraphql.png",
+"shortDescription":"A practical comparison of REST APIs and GraphQL, explaining when developers should choose each architecture in modern applications.",
+"date":{"month":"June","date":"21","year":"2024"},
+"authorName":"Ankit Singh",
+"totalWatchCount":"214",
+"totalCommentCount":"18",
+"content":"APIs act as the backbone of modern web applications. REST has long been the industry standard for building scalable web services. However, as applications became more complex, developers began facing issues such as over-fetching and under-fetching of data. GraphQL was introduced to solve these problems by allowing clients to request exactly the data they need.",
+"titleTwo":"Performance considerations",
+"contentTwo":"While REST APIs are simple and easy to cache, GraphQL offers more flexibility in data fetching. However, GraphQL requires careful schema design and security implementation.",
+"quote":{"content":"Technology choices should be driven by system requirements, not trends.","author":"Ankit Singh"},
+"postList":[
+{"title":"REST APIs","content":"Standard HTTP based architecture using GET, POST, PUT and DELETE."},
+{"title":"GraphQL","content":"Flexible query-based API architecture introduced by Facebook."},
+{"title":"gRPC","content":"High-performance RPC framework used for microservices."},
+{"title":"WebSockets","content":"Real-time communication protocol used for live applications."}
+],
+"discount":{
+"productId":"123",
+"thumb":"/assets/img/discount-bg4.png",
+"silentText":"Tech",
+"title":"Popular API Architectures",
+"subTitle":"Common API styles used in modern systems:",
+"attributes":[
+{"title":"REST","content":"Resource-based API architecture."},
+{"title":"GraphQL","content":"Flexible query based API model."},
+{"title":"gRPC","content":"Binary protocol for microservices."},
+{"title":"WebSockets","content":"Real-time communication protocol."},
+{"title":"Microservices","content":"Independent service architecture."},
+{"title":"Serverless APIs","content":"Functions exposed as APIs."},
+{"title":"API Gateway","content":"Centralized API routing layer."}
+]
+},
+"contentThree":"Developers should evaluate scalability, security, and system complexity before choosing an API architecture.",
+"tags":[{"title":"API","categoryId":"123"},{"title":"Backend","categoryId":"124"},{"title":"Architecture","categoryId":"125"}],
+"comments":[]
+},
+
+{
+"title":"How Node.js Handles Concurrency",
+"subTitle":"Understanding the event loop",
+"id":"23225",
+"image":"/assets/img/blogimg/nodejscon.png",
+"shortDescription":"A deep dive into Node.js event loop architecture and how it enables non-blocking I/O operations.",
+"date":{"month":"June","date":"23","year":"2024"},
+"authorName":"Ankit Singh",
+"totalWatchCount":"198",
+"totalCommentCount":"12",
+"content":"Node.js is known for its non-blocking architecture powered by the event loop. Instead of creating new threads for every request, Node.js uses asynchronous callbacks and a single-threaded event loop to handle multiple requests efficiently.",
+"titleTwo":"Why non-blocking architecture matters",
+"contentTwo":"Applications such as APIs, chat apps, and streaming platforms benefit greatly from Node.js because it can handle thousands of concurrent connections.",
+"quote":{"content":"Node.js changed backend development by making JavaScript a server-side language.","author":"Ankit Singh"},
+"postList":[
+{"title":"Event Loop","content":"Core component that processes async operations."},
+{"title":"Callbacks","content":"Functions executed after async operations complete."},
+{"title":"Promises","content":"Cleaner syntax for asynchronous code."},
+{"title":"Async/Await","content":"Modern way to handle asynchronous operations."}
+],
+"discount":{"productId":"123","thumb":"/assets/img/discount-bg4.png","silentText":"Node","title":"Node.js Core Concepts","subTitle":"Key runtime components","attributes":[
+{"title":"Event Loop","content":"Handles asynchronous tasks."},
+{"title":"Libuv","content":"Provides async I/O operations."},
+{"title":"V8 Engine","content":"JavaScript runtime engine."},
+{"title":"Streams","content":"Efficient data processing."},
+{"title":"Buffers","content":"Binary data handling."},
+{"title":"Cluster","content":"Multi-core scaling."},
+{"title":"Worker Threads","content":"Parallel processing support."}
+]},
+"contentThree":"Understanding Node.js internals helps developers design scalable backend systems.",
+"tags":[{"title":"NodeJS","categoryId":"123"},{"title":"Backend","categoryId":"124"},{"title":"JavaScript","categoryId":"125"}],
+"comments":[]
+},
+
+{
+"title":"MongoDB Indexing Strategies",
+"id":"2633",
+"image":"/assets/img/blogimg/mongodbindexing.png",
+"shortDescription":"How indexing improves MongoDB query performance and reduces database latency.",
+"date":{"month":"July","date":"02","year":"2024"},
+"authorName":"Ankit Singh",
+"totalWatchCount":"167",
+"totalCommentCount":"9",
+"content":"Indexes in MongoDB allow databases to locate documents quickly without scanning entire collections.",
+"titleTwo":"Types of indexes",
+"contentTwo":"MongoDB supports several index types including compound indexes, text indexes, and hashed indexes.",
+"quote":{"content":"Without indexes, databases become slow at scale.","author":"Ankit Singh"},
+"postList":[
+{"title":"Single Index","content":"Index on a single field."},
+{"title":"Compound Index","content":"Index on multiple fields."},
+{"title":"Text Index","content":"Supports text search queries."},
+{"title":"Hashed Index","content":"Used for sharding."}
+],
+"discount":{"productId":"123","thumb":"/assets/img/discount-bg4.png","silentText":"Database","title":"MongoDB Optimization","subTitle":"Performance optimization tips","attributes":[
+{"title":"Indexes","content":"Improve query speed."},
+{"title":"Aggregation","content":"Data processing pipeline."},
+{"title":"Sharding","content":"Horizontal scaling."},
+{"title":"Replication","content":"High availability."},
+{"title":"Schema Design","content":"Optimized data modeling."},
+{"title":"Query Optimization","content":"Efficient database queries."},
+{"title":"Monitoring","content":"Performance tracking tools."}
+]},
+"contentThree":"Proper index design significantly improves performance in production environments.",
+"tags":[{"title":"MongoDB","categoryId":"123"},{"title":"Database","categoryId":"124"},{"title":"Backend","categoryId":"125"}],
+"comments":[]
+},
+
+{
+"title":"Git Workflow for Professional Teams",
+"id":"2325",
+"image":"/assets/img/blogimg/gitworkflow.png",
+"shortDescription":"A guide to Git workflows used by professional development teams.",
+"date":{"month":"July","date":"10","year":"2024"},
+"authorName":"Ankit Singh",
+"totalWatchCount":"185",
+"totalCommentCount":"11",
+"content":"Git workflows help development teams collaborate efficiently while maintaining clean code history.",
+"titleTwo":"Popular workflows",
+"contentTwo":"Common workflows include Git Flow, GitHub Flow, and trunk-based development.",
+"quote":{"content":"Version control is the backbone of collaborative development.","author":"Ankit Singh"},
+"postList":[
+{"title":"Git Flow","content":"Structured workflow with multiple branches."},
+{"title":"GitHub Flow","content":"Simpler workflow using pull requests."},
+{"title":"Trunk Based","content":"Frequent commits to main branch."},
+{"title":"Feature Branch","content":"Separate branch per feature."}
+],
+"discount":{"productId":"123","thumb":"/assets/img/discount-bg4.png","silentText":"Git","title":"Git Best Practices","subTitle":"Version control strategies","attributes":[
+{"title":"Commit Messages","content":"Clear commit descriptions."},
+{"title":"Pull Requests","content":"Code review workflow."},
+{"title":"Branching","content":"Organized development."},
+{"title":"Merge Strategies","content":"Conflict resolution."},
+{"title":"CI/CD","content":"Automated pipelines."},
+{"title":"Code Reviews","content":"Team collaboration."},
+{"title":"Release Tags","content":"Version tracking."}
+]},
+"contentThree":"A well-defined Git workflow ensures efficient collaboration and stable releases.",
+"tags":[{"title":"Git","categoryId":"123"},{"title":"DevOps","categoryId":"124"},{"title":"Development","categoryId":"125"}],
+"comments":[]
+},
+
+{
+"title":"Microservices vs Monolith Architecture",
+"id":"237",
+"image":"/assets/img/blogimg/monolithvsmicroservices.png",
+"shortDescription":"Comparing monolithic and microservices architecture in modern software systems.",
+"date":{"month":"July","date":"15","year":"2024"},
+"authorName":"Ankit Singh",
+"totalWatchCount":"210",
+"totalCommentCount":"14",
+"content":"Software architecture decisions impact scalability, maintainability, and team productivity.",
+"titleTwo":"When to choose microservices",
+"contentTwo":"Microservices are beneficial when systems grow large and require independent scaling.",
+"quote":{"content":"Architecture decisions shape the long-term success of software.","author":"Ankit Singh"},
+"postList":[
+{"title":"Monolith","content":"Single deployable application."},
+{"title":"Microservices","content":"Independent services architecture."},
+{"title":"Service Discovery","content":"Dynamic service registration."},
+{"title":"API Gateway","content":"Single entry point for services."}
+],
+"discount":{"productId":"123","thumb":"/assets/img/discount-bg4.png","silentText":"Architecture","title":"System Design Concepts","subTitle":"Modern architecture approaches","attributes":[
+{"title":"Monolith","content":"Simple architecture for small apps."},
+{"title":"Microservices","content":"Scalable distributed systems."},
+{"title":"Event Driven","content":"Asynchronous architecture."},
+{"title":"Serverless","content":"Cloud native applications."},
+{"title":"Containers","content":"Application packaging."},
+{"title":"Kubernetes","content":"Container orchestration."},
+{"title":"Observability","content":"Monitoring and logging."}
+]},
+"contentThree":"Both architectures have advantages depending on system complexity and team size.",
+"tags":[{"title":"Architecture","categoryId":"123"},{"title":"Backend","categoryId":"124"},{"title":"System Design","categoryId":"125"}],
+"comments":[]
+},
+
+{
+"title":"Docker for Developers: Containerizing Applications",
+"subTitle":"A beginner friendly introduction",
+"id":"23233",
+"image":"/assets/img/blogimg/docker.png",
+"shortDescription":"Learn how Docker helps developers package applications and dependencies into portable containers.",
+"date":{"month":"July","date":"20","year":"2024"},
+"authorName":"Ankit Singh",
+"totalWatchCount":"195",
+"totalCommentCount":"10",
+"content":"Docker has transformed how applications are deployed by packaging code and dependencies into containers.",
+"titleTwo":"Benefits of containerization",
+"contentTwo":"Containers ensure consistent environments across development, testing, and production.",
+"quote":{"content":"Containers solved the classic ‘it works on my machine’ problem.","author":"Ankit Singh"},
+"postList":[
+{"title":"Docker Images","content":"Blueprint for containers."},
+{"title":"Containers","content":"Running instance of images."},
+{"title":"Dockerfile","content":"Instructions to build images."},
+{"title":"Docker Compose","content":"Managing multi-container apps."}
+],
+"discount":{"productId":"123","thumb":"/assets/img/discount-bg4.png","silentText":"Docker","title":"Container Ecosystem","subTitle":"Tools around Docker","attributes":[
+{"title":"Docker","content":"Container runtime platform."},
+{"title":"Kubernetes","content":"Container orchestration."},
+{"title":"Helm","content":"Kubernetes package manager."},
+{"title":"CI/CD","content":"Automated deployments."},
+{"title":"Registries","content":"Image storage."},
+{"title":"Volumes","content":"Persistent storage."},
+{"title":"Networking","content":"Container communication."}
+]},
+"contentThree":"Docker enables faster deployments and reliable infrastructure across environments.",
+"tags":[{"title":"Docker","categoryId":"123"},{"title":"DevOps","categoryId":"124"},{"title":"Containers","categoryId":"125"}],
+"comments":[]
+}
+]

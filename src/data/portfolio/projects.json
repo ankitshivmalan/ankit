@@ -1,0 +1,232 @@
+{
+  "projects": [
+    {
+      "slug": "grapes-real-estate",
+      "title": "Grapes Real Estate Platform",
+      "category": "Real Estate Platform",
+      "websiteUrl": "https://grapesrealestate.com/",
+      "image": "/assets/img/grapesrealestate/1.png",
+      "gallery": [
+        "/assets/img/grapesrealestate/1.png",
+        "/assets/img/grapesrealestate/2.png",
+        "/assets/img/grapesrealestate/3.png",
+        "/assets/img/grapesrealestate/4.png"
+      ],
+      "technologies": ["React", "Node.js", "MongoDB", "REST APIs"],
+      "description": "A modern real estate platform for listing, searching, and managing properties with an integrated admin system.",
+      "caseStudy": {
+        "problem": "Real estate agencies required a centralized system to manage property listings, agents, and client inquiries.",
+        "solution": "Developed a scalable real estate platform allowing agents to manage listings, track inquiries, and showcase properties with advanced filters.",
+        "features": [
+          "Property listing management",
+          "Advanced search filters",
+          "Agent dashboard",
+          "Inquiry management",
+          "Admin control panel"
+        ],
+        "result": "Improved listing management efficiency and enhanced the property discovery experience for customers."
+      }
+    },
+    {
+      "slug": "astutelook",
+      "title": "Astutelook Corporate Platform",
+      "category": "IT Company Website",
+      "websiteUrl": "https://www.astutelook.com/",
+      "image": "/assets/img/astutelook/1.png",
+      "gallery": [
+        "/assets/img/astutelook/1.png",
+        "/assets/img/astutelook/2.png",
+        "/assets/img/astutelook/3.png",
+        "/assets/img/astutelook/4.png"
+      ],
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "description": "Corporate website and service platform for an IT consulting and product engineering company.",
+      "caseStudy": {
+        "problem": "The company needed a modern digital presence to showcase services and generate business leads.",
+        "solution": "Designed and built a responsive corporate platform with service pages, portfolio sections, and lead capture functionality.",
+        "features": [
+          "Service showcase pages",
+          "Portfolio integration",
+          "Lead generation forms",
+          "SEO optimization"
+        ],
+        "result": "Increased online visibility and improved client acquisition through the website."
+      }
+    },
+    {
+      "slug": "prasiddh-travels",
+      "title": "Prasiddh Travels",
+      "category": "Travel Website",
+      "websiteUrl": "https://prasiddhtravels.com/",
+      "image": "/assets/img/prasiddhtravels/1.png",
+      "gallery": [
+        "/assets/img/prasiddhtravels/1.png",
+        "/assets/img/prasiddhtravels/2.png",
+        "/assets/img/prasiddhtravels/3.png",
+        "/assets/img/prasiddhtravels/4.png"
+      ],
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "description": "Travel booking and destination showcase platform for a travel services company.",
+      "caseStudy": {
+        "problem": "Travel agencies required a platform to present tour packages and manage customer inquiries.",
+        "solution": "Built a responsive travel platform displaying packages, itineraries, and booking inquiry systems.",
+        "features": [
+          "Tour package listings",
+          "Inquiry forms",
+          "Destination pages",
+          "Admin dashboard"
+        ],
+        "result": "Enabled the travel company to present packages online and capture booking inquiries efficiently."
+      }
+    },
+    {
+      "slug": "shini-fashion",
+      "title": "Shini Fashion",
+      "category": "E-commerce Platform",
+      "websiteUrl": "https://www.shinifashion.com/",
+      "image": "/assets/img/shinifashion/1.png",
+      "gallery": [
+        "/assets/img/shinifashion/1.png",
+        "/assets/img/shinifashion/2.png",
+        "/assets/img/shinifashion/3.png",
+        "/assets/img/shinifashion/4.png"
+      ],
+      "technologies": ["React", "Node.js", "MongoDB", "Payment Gateway"],
+      "description": "An online fashion e-commerce platform with product catalog, cart system, and order management.",
+      "caseStudy": {
+        "problem": "Fashion businesses required a scalable online platform to sell products directly to customers.",
+        "solution": "Developed an e-commerce platform with product catalog, shopping cart, checkout, and order management.",
+        "features": [
+          "Product catalog",
+          "Shopping cart",
+          "Secure checkout",
+          "Order management",
+          "Admin dashboard"
+        ],
+        "result": "Enabled online product sales and streamlined order processing."
+      }
+    },
+    {
+      "slug": "designshilp",
+      "title": "DesignShilp",
+      "category": "Interior Design Website",
+      "websiteUrl": "https://designshilp.com/",
+      "image": "/assets/img/designshilp/1.png",
+      "gallery": [
+        "/assets/img/designshilp/1.png",
+        "/assets/img/designshilp/2.png",
+        "/assets/img/designshilp/3.png",
+        "/assets/img/designshilp/4.png"
+      ],
+      "technologies": ["React", "Node.js"],
+      "description": "Portfolio and business website for an interior design firm showcasing projects and services.",
+      "caseStudy": {
+        "problem": "Interior design firms needed a professional website to display their portfolio and attract clients.",
+        "solution": "Built a modern portfolio website with project galleries and service pages.",
+        "features": [
+          "Project galleries",
+          "Service pages",
+          "Contact forms"
+        ],
+        "result": "Improved brand credibility and client inquiries."
+      }
+    },
+    {
+      "slug": "anjaneya-real-estate",
+      "title": "Anjaneya Real Estate",
+      "category": "Real Estate Website",
+      "websiteUrl": "https://anjaneyarealestate.com",
+      "image": "/assets/img/grapesrealestate/1.png",
+      "gallery": [
+        "/assets/img/grapesrealestate/1.png",
+        "/assets/img/grapesrealestate/2.png",
+        "/assets/img/grapesrealestate/3.png",
+        "/assets/img/grapesrealestate/4.png"
+      ],
+      "technologies": ["React", "Node.js"],
+      "description": "Real estate listing and property showcase platform for property developers.",
+      "caseStudy": {
+        "problem": "Property developers needed a platform to showcase available properties and collect buyer inquiries.",
+        "solution": "Built a property listing platform with detailed property pages and lead capture forms.",
+        "features": [
+          "Property listings",
+          "Lead generation",
+          "Admin panel"
+        ],
+        "result": "Increased buyer inquiries and simplified property promotion."
+      }
+    },
+    {
+      "slug": "cafe-demo",
+      "title": "Cafe Demo Website",
+      "category": "Restaurant Website",
+      "websiteUrl": "",
+      "image": "/assets/img/blog-img1.jpg",
+      "gallery": [
+        "/assets/img/blog-img1.jpg",
+        "/assets/img/blog-img4.jpg",
+        "/assets/img/blog-img2.jpg"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "description": "A demo restaurant website showcasing menu, location, and reservation features.",
+      "caseStudy": {
+        "problem": "Restaurants require simple websites to present menus and attract customers.",
+        "solution": "Created a responsive cafe website with menu display and contact information.",
+        "features": [
+          "Menu display",
+          "Location map",
+          "Reservation form"
+        ],
+        "result": "Improved online presence for small restaurant businesses."
+      }
+    },
+    {
+      "slug": "nike-landing-page",
+      "title": "Nike Landing Page",
+      "category": "Landing Page Demo",
+      "websiteUrl": "",
+      "image": "/assets/img/blog-img2.jpg",
+      "gallery": [
+        "/assets/img/blog-img2.jpg",
+        "/assets/img/blog-img5.jpg",
+        "/assets/img/blog-img3.jpg"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "description": "A modern landing page inspired by Nike showcasing responsive UI design.",
+      "caseStudy": {
+        "problem": "Landing pages require visually engaging design to capture user attention.",
+        "solution": "Built a responsive landing page focused on modern UI/UX design principles.",
+        "features": [
+          "Hero section",
+          "Product highlights",
+          "Call-to-action sections"
+        ],
+        "result": "Demonstrates modern UI design and frontend development capabilities."
+      }
+    },
+    {
+      "slug": "dentist-website",
+      "title": "Dentist Clinic Website",
+      "category": "Healthcare Website",
+      "websiteUrl": "",
+      "image": "/assets/img/blog-img3.jpg",
+      "gallery": [
+        "/assets/img/blog-img3.jpg",
+        "/assets/img/blog-img6.jpg",
+        "/assets/img/blog-img5.jpg"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "description": "A professional website for dental clinics featuring services and appointment booking.",
+      "caseStudy": {
+        "problem": "Dental clinics require websites to inform patients about services and schedule appointments.",
+        "solution": "Developed a responsive clinic website with appointment request forms.",
+        "features": [
+          "Service pages",
+          "Doctor profile",
+          "Appointment request form"
+        ],
+        "result": "Improved online visibility and patient engagement."
+      }
+    }
+  ]
+}

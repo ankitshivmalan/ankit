@@ -1,0 +1,115 @@
+{
+  "title": "Building Scalable REST APIs with Node.js",
+  "subTitle": "Best practices for modern backend development",
+  "id": "2323",
+  "image": "/assets/img/blogimg/restapivsgraphql.png",
+  "shortDescription": "A practical guide to designing scalable REST APIs using Node.js, focusing on performance, maintainability, and production-ready architecture.",
+  "date": {
+    "month": "July",
+    "date": "21",
+    "year": "2024"
+  },
+  "authorName": "Ankit Singh",
+  "totalWatchCount": "314",
+  "totalCommentCount": "22",
+  "content": "REST APIs are the foundation of modern web and mobile applications. A well-designed backend service allows applications to communicate efficiently while maintaining scalability and performance. Node.js has become a popular backend technology because of its non-blocking architecture and ability to handle thousands of concurrent connections. By structuring APIs around resources and using HTTP methods such as GET, POST, PUT, and DELETE, developers can build clean and maintainable backend services. Modern applications also integrate authentication, logging, and caching layers to ensure reliability in production environments.",
+  "titleTwo": "Performance and scalability considerations",
+  "contentTwo": "Designing scalable APIs requires attention to performance optimization, database queries, and caching strategies. Techniques such as request validation, rate limiting, and proper error handling help maintain stable production systems. Developers should also implement pagination, indexing, and efficient database queries to prevent performance bottlenecks when the system scales.",
+  "quote": {
+    "content": "A well-designed API is not just about endpoints — it is about scalability, reliability, and developer experience.",
+    "author": "Ankit Singh"
+  },
+  "postList": [
+    {
+      "title": "REST Architecture",
+      "content": "REST uses HTTP methods to interact with resources and is widely adopted for building scalable APIs."
+    },
+    {
+      "title": "Authentication",
+      "content": "APIs should implement authentication mechanisms such as JWT or OAuth to protect endpoints."
+    },
+    {
+      "title": "Rate Limiting",
+      "content": "Rate limiting prevents abuse and protects backend services from excessive requests."
+    },
+    {
+      "title": "Caching",
+      "content": "Caching strategies such as Redis improve API performance and reduce database load."
+    }
+  ],
+  "discount": {
+    "productId": "123",
+    "thumb": "/assets/img/discount-bg4.png",
+    "silentText": "Backend",
+    "title": "Key backend architecture components",
+    "subTitle": "Essential elements for building scalable backend systems:",
+    "attributes": [
+      {
+        "title": "API Gateway",
+        "content": "Acts as a centralized entry point for routing and managing API requests."
+      },
+      {
+        "title": "Authentication",
+        "content": "Ensures secure access to protected resources using tokens or sessions."
+      },
+      {
+        "title": "Database Layer",
+        "content": "Stores application data and should be optimized with indexing and proper schema design."
+      },
+      {
+        "title": "Caching",
+        "content": "Improves performance by storing frequently requested data in memory."
+      },
+      {
+        "title": "Logging",
+        "content": "Captures system events and errors for monitoring and debugging."
+      },
+      {
+        "title": "Monitoring",
+        "content": "Tracks performance metrics and system health in production."
+      },
+      {
+        "title": "Load Balancing",
+        "content": "Distributes traffic across multiple servers for high availability."
+      }
+    ]
+  },
+  "contentThree": "When building production-ready APIs, developers must also focus on maintainability and observability. Proper documentation using tools like Swagger or OpenAPI helps teams understand endpoints and integration flows. Additionally, implementing CI/CD pipelines ensures automated testing and deployment, enabling teams to release features faster while maintaining system stability.",
+  "tags": [
+    {
+      "title": "NodeJS",
+      "categoryId": "123"
+    },
+    {
+      "title": "Backend Development",
+      "categoryId": "124"
+    },
+    {
+      "title": "API Design",
+      "categoryId": "125"
+    }
+  ],
+  "comments": [
+    {
+      "authorName": "Rahul Sharma",
+      "date": "August 17, 2024",
+      "authorImage": "/assets/img/comment-author1.jpg",
+      "content": "Great breakdown of REST API design principles. The explanation about caching and rate limiting was particularly useful.",
+      "answers": [
+        {
+          "authorName": "Ankit Singh",
+          "date": "August 18, 2024",
+          "authorImage": "/assets/img/comment-author2.jpg",
+          "content": "Thanks! Implementing caching and rate limiting early can significantly improve production performance."
+        }
+      ]
+    },
+    {
+      "authorName": "Priya Mehta",
+      "date": "August 19, 2024",
+      "authorImage": "/assets/img/comment-author3.jpg",
+      "content": "Would love to see a follow-up article about scaling Node.js APIs with Docker and Kubernetes.",
+      "answers": []
+    }
+  ]
+}
