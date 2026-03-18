@@ -1,0 +1,25 @@
+{
+  "name": "Ankit Singh Portfolio",
+  "short_name": "Ankit Singh",
+  "description": "Portfolio and engineering blog of Ankit Singh, Senior Software Developer.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "en",
+  "categories": ["portfolio", "technology", "software development"],
+  "icons": [
+    {
+      "src": "/portfolio/ankit-formal.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/portfolio/ankit-formal.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
