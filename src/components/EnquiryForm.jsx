@@ -40,8 +40,8 @@ export const EnquiryForm = () => {
 
       setForm(initialState);
       setStatus({
-        type: 'success',
-        message: 'Your enquiry has been saved and emailed successfully.',
+        type: data.warning ? 'error' : 'success',
+        message: data.message || 'Your enquiry has been saved and emailed successfully.',
       });
     } catch (error) {
       setStatus({
