@@ -47,6 +47,12 @@ export const Layout = ({
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta name='keywords' content={metaKeywords.join(', ')} />
         <meta name='author' content={siteData.profile.name} />
+        {siteData.seo.googleSiteVerification ? (
+          <meta
+            name='google-site-verification'
+            content={siteData.seo.googleSiteVerification}
+          />
+        ) : null}
         <meta name='robots' content={noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large'} />
         <link rel='canonical' href={canonicalUrl} />
         <link rel='icon' href={siteData.seo.image} />
