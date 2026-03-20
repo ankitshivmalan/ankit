@@ -5,6 +5,7 @@ export const siteData = {
       'Portfolio of Ankit Singh featuring full-stack engineering, mobile app delivery, ERP and SaaS systems, and DevOps execution.',
     siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
     image: '/portfolio/ankit-formal.png',
+    googleSiteVerification: 'C7gS9UI8X-n08KWuaphX26dg1_7bnegjMWYQw6wZd5c',
     keywords: [
       'Ankit Singh portfolio',
       'MERN developer',
