@@ -53,6 +53,12 @@ export const Layout = ({
             content={siteData.seo.googleSiteVerification}
           />
         ) : null}
+        {siteData.seo.googleAdsenseAccount ? (
+          <meta
+            name='google-adsense-account'
+            content={siteData.seo.googleAdsenseAccount}
+          />
+        ) : null}
         <meta name='robots' content={noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large'} />
         <link rel='canonical' href={canonicalUrl} />
         <link rel='icon' href={siteData.seo.image} />
