@@ -4,6 +4,15 @@ import { buildEnquiryEmail, getTransporter } from 'lib/mailer';
 const requiredFields = ['name', 'email', 'phone', 'service'];
 
 const isEmailValid = (email) => /\S+@\S+\.\S+/.test(email);
+const toDebugString = (value) => (value ? String(value) : null);
+const getErrorDetails = (error) => ({
+  name: toDebugString(error?.name),
+  message: toDebugString(error?.message),
+  code: toDebugString(error?.code),
+  command: toDebugString(error?.command),
+  response: toDebugString(error?.response),
+  responseCode: error?.responseCode ?? null,
+});
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -42,13 +51,17 @@ export default async function handler(req, res) {
     const insertResult = await db.collection('enquiries').insertOne(savedEnquiry);
     enquiryId = insertResult.insertedId;
   } catch (error) {
+    const errorDetails = getErrorDetails(error);
+
     console.error('Failed to save enquiry to database.', {
-      error,
+      error: errorDetails,
       payload,
     });
 
     return res.status(500).json({
       message: 'Unable to save your enquiry right now.',
+      stage: 'database',
+      debug: errorDetails,
     });
   }
 
@@ -79,18 +92,34 @@ export default async function handler(req, res) {
     });
 
     return res.status(200).json({
-      message: 'Your enquiry has been saved and emailed successfully.',
+      message: 'Your enquiry has been saved',
     });
   } catch (error) {
+    const errorDetails = getErrorDetails(error);
+    const emailConfig = {
+      host: toDebugString(process.env.SMTP_HOST),
+      port: toDebugString(process.env.SMTP_PORT),
+      user: toDebugString(process.env.SMTP_USER),
+      hasPass: Boolean(process.env.SMTP_PASS),
+      to: toDebugString(process.env.ENQUIRY_TO_EMAIL),
+      from: toDebugString(process.env.ENQUIRY_FROM_EMAIL || process.env.SMTP_USER),
+    };
+
     console.error('Failed to send enquiry email.', {
-      error,
+      error: errorDetails,
       enquiryId,
       payload,
+      emailConfig,
     });
 
     return res.status(200).json({
       warning: true,
       message: 'Your enquiry was saved, but the email notification could not be sent.',
+      stage: 'email',
+      debug: {
+        ...errorDetails,
+        emailConfig,
+      },
     });
   }
 }
