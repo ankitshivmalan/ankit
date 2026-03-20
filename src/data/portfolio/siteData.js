@@ -10,6 +10,7 @@ export const siteData = {
         : 'http://localhost:3000'),
     image: '/portfolio/ankit-formal.png',
     googleSiteVerification: 'C7gS9UI8X-n08KWuaphX26dg1_7bnegjMWYQw6wZd5c',
+    googleAdsenseAccount: 'ca-pub-3775988500417008',
     keywords: [
       'Ankit Singh portfolio',
       'MERN developer',
